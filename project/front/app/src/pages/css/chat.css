@@ -1,0 +1,101 @@
+:root {
+    --search-bar-height: 3rem;
+    --option-bar-width: 6rem;
+    --left-side-bar-width: 30rem;
+}
+
+.chatPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.chat-right-page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* .profil-image {
+    height: 3rem;
+    width: 3rem;
+} */
+
+.profil-image.chat-small-user-image {
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.profil-image.chat-small-user-image > .profil-status {
+    border: 0.25rem solid var(--box-color);
+}
+
+/* channel page */
+
+.chat-page-channel {
+    width: 100%;
+    margin: 0 2rem;
+    color: var(--light-color);
+}
+
+.chat-page-channels-input {
+    display: inline-block;
+    border: 0;
+    border-radius: 3rem;
+    background-color: var(--box-color);
+    padding: 0.1rem;
+    color: var(--light-color);
+    font-size: 1.125rem;
+    width: 25rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    outline: none;
+}
+
+.chat-page-channels-channel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.chat-page-channels-channel > p {
+    opacity: 0.85;
+}
+
+.chat-page-channel-password-input {
+    border: 0;
+    border-radius: 3rem;
+    background-color: var(--box-color);
+    padding: 0.1rem;
+    color: var(--light-color);
+    font-size: 1.125rem;
+    width: max(30%, 6rem);
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    outline: none;
+}
+
+.chat-page-channels-channel > button {
+    cursor: pointer;
+    border: none;
+    background-color: var(--box-color);
+    border-radius: 6px;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    width: 4rem;
+    height: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .chat-page-channels-input {
+        width: 100%;
+    }
+}
+
+/* end channel page */

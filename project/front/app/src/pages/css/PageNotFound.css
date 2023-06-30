@@ -1,0 +1,10 @@
+.Error-404 {
+    font-size: max(30vmin, 3rem);
+    margin: 0;
+    color: rgb(55, 119, 121);
+}
+
+.Error-description {
+    font-size: max(10vmin, 3rem);
+    color: var(--light-color);
+}

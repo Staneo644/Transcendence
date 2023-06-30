@@ -1,0 +1,147 @@
+:root {
+    --widthCanvas: "1";
+    --heightCanvas: "1";
+}
+
+
+.game-container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    display: inline-block;
+}
+
+.game-canvas {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.paddle1,
+.paddle2 {
+    position: absolute;
+    width: 1%;
+    height: 15%;
+    background-color: var(--light-color);
+}
+
+.paddle1 {
+    left: 1%;
+}
+
+.paddle2 {
+    right: 1%;
+}
+
+.parentscore {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.score {
+    color: var(--light-color);
+    opacity: 0.7;
+    font-size: calc(5vw + 5vh);
+    white-space: nowrap;
+}
+
+.fill {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 4;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+
+}
+
+.game-pause-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: var(--light-color);
+}
+
+.game-pause-page-text-time, .game-pause-page-text-time > p {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.game-pause-menu-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-pause-menu-buttons-template {
+    background-color: var(--box-color);
+    border: none;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 100vw;
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.game-pause-menu-leave-button {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.game-pause-menu-resume-button {
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
+
+.game-pause-page-powerups {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.game-pause-page-powerups-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ball {
+    z-index: 3;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

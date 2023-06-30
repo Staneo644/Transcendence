@@ -1,0 +1,59 @@
+/* Invite page */
+
+.chat-channel-invite-people {
+    position: absolute;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 40rem;
+    width: 30rem;
+    overflow: auto;
+    background-color: var(--box-color);
+    max-height: 80vh;
+    color: var(--light-color);
+    border-radius: 20px;
+}
+
+.chat-channel-invite-people > h2 {
+    margin-bottom: 2.5rem;
+}
+
+.chat-side-bar-close-add-people-channel {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    background-color: var(--close-button-color);
+    color: var(--light-color);
+    border: none;
+    padding: 0.75rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chat-side-bar-invite-channel-input {
+    background-color: var(--background-color);
+    width: 75%;
+    margin: 0 0 3rem;
+}
+
+.chat-invite-people-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-invite-people-user > div {
+    margin-left: 1rem
+}
+
+
+.chat-channel-invite-add-user-by-id {
+    overflow-y: auto;
+    min-height: 5rem;
+}
+
+/* end Invite page */

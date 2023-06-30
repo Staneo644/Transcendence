@@ -1,0 +1,36 @@
+.chatSideBar {
+    width: var(--left-side-bar-width);
+    background-color: var(--box-color);
+    color: var(--light-color);
+    overflow-y: auto;
+}
+
+.chat-side-bar-channel {
+    background-color: var(--background-color);
+    border-radius: 50px;
+    height: 2.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    font-size: 1.25rem;
+    justify-content: space-between;
+}
+
+.chat-side-bar-no-conversation-found {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    opacity: .4;
+}
+
+.chat-side-bar-channel-modify-button {
+    display: flex;
+    margin-right: 1rem;
+    opacity: .7;
+}
+
+.chat-side-bar-channel-modify-channel {
+    margin: 0 0.7rem;
+}

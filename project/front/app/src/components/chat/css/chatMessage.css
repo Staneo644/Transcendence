@@ -1,0 +1,80 @@
+.chat-conversation-header {
+    color: var(--light-color);
+    display: grid;
+    grid-template-columns: 1fr repeat(1, auto) 1fr;
+
+}
+
+.chat-conversation-channel-name {
+    grid-column-start: 2;
+    font-size: 1.35rem;
+    font-weight: 525;
+}
+
+.chat-list-users-button {
+    margin-left: auto;
+    margin-right: 1rem;
+    fill: var(--light-color);
+    opacity: 0.45;
+    height: 1.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.chat-conversation {
+    height: calc(100% - var(--search-bar-height));
+}
+
+.chat-error-get-message {
+    grid-column-start: 2;
+}
+
+.chat-scroll-converation {
+    max-height: calc(100% - var(--search-bar-height));
+    overflow-y: auto;
+
+}
+
+.chat-message-image-profil {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.chat-my-message, .chat-other-message {
+    color: var(--light-color);
+    margin: 1rem;
+    display: flex;
+}
+
+.chat-message-header-and-content {
+    margin-left: 0.5rem;
+}
+
+.chat-header-of-message {
+    display: flex;
+}
+
+.chat-header-username {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.chat-header-date {
+    opacity: 0.5;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.chat-content-message {
+    font-size: 1.125rem;
+    opacity: 0.8;
+    word-break: break-all;
+}

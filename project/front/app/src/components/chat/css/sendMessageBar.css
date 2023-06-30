@@ -1,0 +1,35 @@
+.chat-input-send-bar {
+    background-color: var(--box-color);
+    border-radius: 50px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    height: var(--search-bar-size);
+    color: var(--light-color);
+    padding-left: 2rem;
+}
+
+.chat-input-message {
+    font-size: 1.75rem;
+    border: none;
+    background-color: var(--box-color);
+    width: calc(100% - 3rem);
+    color: var(--light-color);
+    outline: none;
+
+}
+
+.chat-button-send-message {
+    width: 3rem;
+    font-size: 1.75rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--light-color);
+}
+
+.chat-conversation-never-join-channel, .chat-conversation-write-the-first-message {
+    margin: 2rem 2rem 2rem;
+    font-weight: 500;
+    color: var(--light-color);
+}

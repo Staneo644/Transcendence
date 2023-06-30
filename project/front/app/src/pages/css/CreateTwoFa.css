@@ -1,0 +1,41 @@
+.create-2FA-title {
+    color: var(--light-color);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.qrCode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.input-2fa {
+    text-align: center;
+}
+
+.input {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 12px;
+    text-transform: uppercase;
+    color: #494949;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: #fff;
+    background-clip: padding-box;
+}
+
+.input:focus {
+    appearance: none;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgb(131 192 253 / 50%);
+}

@@ -1,0 +1,240 @@
+.profil-modal {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    /* position: fixed; */
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 810px;
+    max-height: 80vh;
+    overflow: auto;
+    background-color: var(--box-color);
+    color: var(--light-color);
+    border-radius: 20px;
+}
+
+/* Your profil */
+
+/* title bar */
+
+.profil-title > h2 {
+    font-size: 2.3rem;
+}
+
+.close-profil {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+    background-color: var(--close-button-color);
+    color: var(--light-color);
+    border: none;
+    padding: 0.75rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* end title bar */
+
+.profil-image {
+    height: 16rem;
+    width: 16rem;
+    display: inline-block;
+    position: relative;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profil-status {
+    background-color: var(--box-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 71%;
+    left: 69%;
+    height: 20%;
+    width: 20%;
+    border: 0.7rem solid var(--box-color);
+}
+
+.profil-status-connected {
+    background-color: rgb(0, 162, 0);
+}
+
+.profil-status-in-game {
+    background-color: rgb(0, 191, 255);
+}
+
+.profil-status-disconnected {
+    background-color: rgb(96, 96, 96);
+}
+
+/* Score Profil */
+
+.profil-game-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.profil-game-info p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.profil-score-middlle-one {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.profil-game-info-title {
+    margin-bottom: 0.5rem;
+}
+
+.profil-experience {
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* end Score Profil */
+
+.profil-button {
+    display: inline-block;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 1rem;
+    background-color: var(--box-color);
+    padding: 0.2rem;
+    color: var(--light-color);
+    font-size: 1rem;
+    width: 8rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.browse-file > input {
+    display: none;
+}
+
+.ChangeNameDiv {
+    margin: 1rem;
+}
+
+.ButtonChangeName {
+    justify-content: center;
+    justify-self: center;
+}
+
+/* 2FA toggle switch */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: var(--primary-color);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--primary-color);
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/*  */
+
+.change2FA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change2FA > p {
+    margin-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Error-msg {
+    font-size: 0.8rem;
+}
+
+
+.logout > button {
+    border: 0;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+
+/* Other user profil */
+
+.other-user-profil {
+    display: inline-block;
+}
+
+.other-user-profil > button {
+    display: inline-block;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 1rem;
+    background-color: var(--box-color);
+    padding: 0.1rem;
+    color: var(--light-color);
+    font-size: 1rem;
+    width: 8rem;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

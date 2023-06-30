@@ -1,0 +1,95 @@
+:root {
+    --history-title-height: 5rem;
+}
+
+.page-history {
+    width: 100%;
+    height: calc(100vh - (var(--header-size)));
+
+}
+
+.history-title {
+    color: var(--light-color);
+    border-bottom: 0.2rem solid var(--light-color);
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    height: var(--history-title-height);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.scrollBlock {
+    overflow: auto;
+    max-height: calc(100vh - var(--header-size) - var(--history-title-height) - 0.2rem);
+}
+
+.score-block {
+    border-radius: 15px;
+    background-color: var(--box-color);
+    width: 15rem;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    height: 6.5rem;
+    display: block;
+}
+
+.score-board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.status {
+    padding-left: 7.5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.image {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.history-score {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.player {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.player > p {
+    margin: 0;
+}
+
+.no-game-played {
+    margin: 2rem;
+    color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}    
+

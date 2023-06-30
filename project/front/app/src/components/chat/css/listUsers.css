@@ -1,0 +1,81 @@
+
+.chat-right-bar-list-user {
+    color: var(--light-color);
+    background-color: var(--box-color);
+    width: 35rem;
+    overflow: auto;
+}
+
+.chat-right-bar-list-user > div {
+    padding: 0 1rem;
+}
+
+.profil-image.chat-list-user-image {
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.profil-image.chat-list-user-image > img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.profil-image.chat-list-user-image > .profil-status {
+    border: 0.25rem solid var(--box-color);
+}
+
+.chat-list-users-user {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.chat-list-users-user-name {
+    font-weight: bold;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.chat-list-users-name-kick{
+    display: flex;
+}
+
+.chat-list-users-buttons-user {
+    display: flex;
+}
+
+.chat-list-users-button-making-admin, .chat-list-users-button-deleting-admin {
+    background-color: rgb(230, 128, 26);
+    border: 0.25rem solid rgb(222, 102, 22);
+    border-radius: 6px;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}
+
+.chat-list-users-button-ban-hammer, .chat-list-users-button-unban-hammer {
+    background-color: rgb(230, 26, 26);
+    border: 0.25rem solid rgb(194, 0, 0);
+    border-radius: 6px;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}
+
+.chat-list-users-button-mute, .chat-list-users-button-unmute {
+    background-color: rgb(123, 202, 255);
+    border: 0.25rem solid rgb(82, 186, 255);
+    border-radius: 6px;
+    margin: 0.5rem 0 0.5rem 0.5rem;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}
+
+.chat-list-users-button-kick-user{
+    background-color: var(--background-color);
+    border: 0.25rem solid var(--background-color);
+    border-radius: 6px;
+    margin: 0 0 0.5rem 0.5rem;
+    padding: 0 0.3rem;
+    cursor: pointer;
+}

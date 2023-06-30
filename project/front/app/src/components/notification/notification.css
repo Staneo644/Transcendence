@@ -1,0 +1,44 @@
+.popup-notification {
+    background-color: var(--box-color);
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 3rem;
+    border-radius: 100vw;
+    border: 0.2rem solid var(--primary-color);
+    top: calc(var(--header-size) + 2rem);
+    color: var(--light-color);
+
+    /* Centering styles */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popup-notification > h2 {
+    margin-left: 1.5rem;
+    font-weight: normal;
+}
+
+.notification-buttons {
+    display: flex;
+    position: absolute;
+    right: 1.5rem;
+}
+
+.notification-button {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100vw;
+    cursor: pointer;
+    margin: 0 0.25rem;
+}
+
+.notification-button-validate {
+    background-color: var(--accept-button-color);
+}
+
+.notification-button-cancel {
+    background-color: var(--close-button-color);
+}

@@ -1,0 +1,86 @@
+.chat-option-bar {
+    background-color: var(--background-color);
+    display: flex;
+    width: var(--option-bar-width);
+    flex-direction: column;
+    align-items: center;
+    border-right: 0.2rem solid var(--primary-color);
+}
+
+/* hamburger button */
+
+.chat-hamburger-buttton {
+    background: var(--box-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+    margin: 0.5rem 0 0.5rem;
+}
+
+.chat-hamburger-buttton-bar {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin: 5%;
+    height: 10%;
+    width: 60%;
+
+}
+
+/* add channel button */
+
+
+.chat-add-channel-button {
+    background: var(--box-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.chat-add-channel-button-image {
+    height: 4rem;
+    fill: var(--primary-color);
+}
+
+/* home button */
+
+.chat-invite-channel-button {
+    background: var(--box-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.chat-option-bar-home-button {
+    background: var(--box-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.chat-option-bar-home-button-image {
+    height: 3rem;
+    fill: var(--primary-color);
+}

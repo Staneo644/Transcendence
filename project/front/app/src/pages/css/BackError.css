@@ -1,0 +1,5 @@
+.Error-description {
+    font-size: max(8vmin, 3rem);
+    color: var(--light-color);
+    text-align: center;
+}
