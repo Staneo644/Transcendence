@@ -1,17 +1,11 @@
 # Transcendance
 
-Realisation d'un super site web Full Stack!
+A beautifull full-stack web page !
 
-Possedant :
+With :
 
-- Un magnifique chat
-- Un jeux de pong epoustouflant
-- Et une authentifcation inviolable*
+- A perfect chat, with moderation system and protected/private chat
+- A fabulous pong game, with different type of balls and background
+- A two-FA authentification
 
-*Cette est une information ne reflete pas forcement la realite
-
-### Lien utile pour le projet :
-
-- Trello : https://trello.com/b/y4zBG0YO/transcendance
-
-- Subject : https://cdn.intra.42.fr/pdf/pdf/69016/fr.subject.pdf
+Project made by https://github.com/Gwilhoa, https://github.com/hetya, https://github.com/fdaumas and me !
